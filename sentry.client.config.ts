@@ -11,7 +11,7 @@ Sentry.init({
   integrations: [
     Sentry.replayIntegration({
       maskAllText: true,
-      blockAllMedia: true,
+      blockAllMedia: false,
     }),
 
     Sentry.feedbackIntegration({

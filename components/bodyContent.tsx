@@ -80,25 +80,25 @@ const BodyContent = () => {
               </div>
               <div className="h-30 mx-4 border-slate-600 rounded-md bg-bla-100/50 p-1">
                 <p className="text-2xl text-white text-center hover:brightness-90">
-                  "Hey, fellow dreamers! Gather 'round. You know, I’ve been
-                  thinking—a project isn’t just code; it’s a whisper of
-                  possibility. So, let’s dream bigger. Imagine an app that pairs
+                  &quot;Hey, fellow dreamers! Gather &apos;round. You know, I&apos;ve been
+                  thinking—a project isn&apos;t just code; it&apos;s a whisper of
+                  possibility. So, let&apos;s dream bigger. Imagine an app that pairs
                   lost socks, because even laundry deserves love. Or a website
                   that translates cat meows into Shakespearean sonnets—because
                   feline drama deserves iambic pentameter. And what about an
                   AI-powered umbrella that predicts rain, but also compliments
                   your outfit? “Brilliant choice of raincoat, my dear Watson!”
-                  it’ll say. Now, I see you raising an eyebrow. “But how?” you
-                  ask. Well, that’s the magic! We’ll mix equal parts curiosity,
-                  caffeine, and late-night inspiration. We’ll code like wizards,
+                  it&apos;ll say. Now, I see you raising an eyebrow. “But how?” you
+                  ask. Well, that&apos;s the magic! We&apos;ll mix equal parts curiosity,
+                  caffeine, and late-night inspiration. We&apos;ll code like wizards,
                   debug like detectives, and test like mad scientists. And when
-                  our project finally takes flight—whether it’s a pixel-perfect
-                  website or an app that organizes your sock drawer—we’ll
+                  our project finally takes flight—whether it&apos;s a pixel-perfect
+                  website or an app that organizes your sock drawer—we&apos;ll
                   high-five the universe. Because dreams, my friends, are the
                   blueprints of reality. So, grab your digital sketchbook,
-                  sprinkle it with stardust, and let’s create. Who knows? Our
+                  sprinkle it with stardust, and let&apos;s create. Who knows? Our
                   next project might just change lives—or at least make mornings
-                  more caffeinated! ☕🚀"
+                  more caffeinated! ☕🚀&quot;
                 </p>
               </div>
             </div>

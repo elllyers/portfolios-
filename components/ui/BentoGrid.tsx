@@ -92,7 +92,7 @@ export const BentoGridItem = ({
                     <div className=" rounded-sm bg-black w-full h-full  hover:bg-bla-100 p-1">
                       <h1 className="h-full w-full text-xl lg:text-3xl md:text-sm font-semibold">
                         <span className="text-slate-400 font-serif lg:leading-4">
-                          let's collaborate
+                          let&apos;s collaborate
                         </span>
                       </h1>
                     </div>

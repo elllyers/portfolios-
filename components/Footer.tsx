@@ -69,15 +69,15 @@ const Footer = () => {
           <h2 className="text-center text-slate-200 text-xl font-semibold ">
             location
           </h2>
-          <div className="text-slate-400  font-mono flex justify-center">
+          <div className="text-xs sm:text-xl text-slate-400  font-mono flex justify-center">
             <span className="text-slate-400 font-mono ">Nyagatare,Rwanda</span>
           </div>
         </div>
-        <div className="h-15">
+        <div className="text-xs sm:text-xl h-15">
           <h2 className="text-center text-slate-200 text-xl font-semibold ">
             projects
           </h2>
-          <div className="h-full flex flex-col items-center justify-center">
+          <div className="text-xs sm:text-xl h-full flex flex-col items-center justify-center">
             <span className=" text-slate-400 tracking-wide font-mono ">
               LTS platform
             </span>
@@ -86,18 +86,18 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="h-15">
+        <div className="text-xs sm:text-xl h-15">
           <h2 className="text-center text-slate-200 text-xl font-semibold ">
-            Copy my email
+            Copy email
           </h2>
           <motion.div
             variants={buttonVariants}
             whileHover="hover"
-            className="h-10 w-full p-0.5 bg-indigo-700 rounded-lg mt-2"
+            className="h-10 w-full p-0.5 bg-indigo-700 rounded-lg mt-0.5 sm:mt-2"
           >
             <div className="flex items-center justify-center bg-slate-700 h-full w-full rounded-lg">
               <button
-                className=" text-slate-200 text-xs font-semibold text-center outline-none"
+                className=" text-slate-200 text-[8px] sm:text-xs text-base text-center outline-none"
                 onClick={handleCopy}
               >
                 {copied ? "Email is Copied!" : "Copy my email address"}

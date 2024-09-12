@@ -54,7 +54,7 @@ const BodyContent = () => {
                 </h1>
               </div>
               <div className="my-2">
-                <h2 className="capitalize text-center text-xl text-slate-200 hover:brightness-90">
+                <h2 className="capitalize text-center text-sm sm:text-xl  text-slate-200 hover:brightness-90">
                   <span className="block">
                     only give time all that matters on you
                   </span>
@@ -74,31 +74,32 @@ const BodyContent = () => {
             </div>
             <div className="overflow-hidden flex flex-col h-42 w-full border-b border-slate-500 my-8 py-8">
               <div className=" mx-2">
-                <span className="text-center block brightness-200 uppercase tracking-wider text-3xl text-slate-300 font-semibold transition animate-bounce">
+                <span className="text-center block brightness-200 uppercase tracking-wider text-sm sm:text-xl md:text-3xl text-slate-300 font-semibold transition animate-bounce">
                   Dreaming of more diffent projects
                 </span>
               </div>
               <div className="h-30 mx-4 border-slate-600 rounded-md bg-bla-100/50 p-1">
-                <p className="text-2xl text-white text-center hover:brightness-90">
-                  &quot;Hey, fellow dreamers! Gather &apos;round. You know, I&apos;ve been
-                  thinking—a project isn&apos;t just code; it&apos;s a whisper of
-                  possibility. So, let&apos;s dream bigger. Imagine an app that pairs
-                  lost socks, because even laundry deserves love. Or a website
-                  that translates cat meows into Shakespearean sonnets—because
-                  feline drama deserves iambic pentameter. And what about an
-                  AI-powered umbrella that predicts rain, but also compliments
-                  your outfit? “Brilliant choice of raincoat, my dear Watson!”
-                  it&apos;ll say. Now, I see you raising an eyebrow. “But how?” you
-                  ask. Well, that&apos;s the magic! We&apos;ll mix equal parts curiosity,
-                  caffeine, and late-night inspiration. We&apos;ll code like wizards,
-                  debug like detectives, and test like mad scientists. And when
-                  our project finally takes flight—whether it&apos;s a pixel-perfect
-                  website or an app that organizes your sock drawer—we&apos;ll
-                  high-five the universe. Because dreams, my friends, are the
-                  blueprints of reality. So, grab your digital sketchbook,
-                  sprinkle it with stardust, and let&apos;s create. Who knows? Our
-                  next project might just change lives—or at least make mornings
-                  more caffeinated! ☕🚀&quot;
+                <p className="text-sm sm:text-xl md:text-2xl text-white text-center hover:brightness-90">
+                  &quot;Hey, fellow dreamers! Gather &apos;round. You know,
+                  I&apos;ve been thinking—a project isn&apos;t just code;
+                  it&apos;s a whisper of possibility. So, let&apos;s dream
+                  bigger. Imagine an app that pairs lost socks, because even
+                  laundry deserves love. Or a website that translates cat meows
+                  into Shakespearean sonnets—because feline drama deserves
+                  iambic pentameter. And what about an AI-powered umbrella that
+                  predicts rain, but also compliments your outfit? “Brilliant
+                  choice of raincoat, my dear Watson!” it&apos;ll say. Now, I
+                  see you raising an eyebrow. “But how?” you ask. Well,
+                  that&apos;s the magic! We&apos;ll mix equal parts curiosity,
+                  caffeine, and late-night inspiration. We&apos;ll code like
+                  wizards, debug like detectives, and test like mad scientists.
+                  And when our project finally takes flight—whether it&apos;s a
+                  pixel-perfect website or an app that organizes your sock
+                  drawer—we&apos;ll high-five the universe. Because dreams, my
+                  friends, are the blueprints of reality. So, grab your digital
+                  sketchbook, sprinkle it with stardust, and let&apos;s create.
+                  Who knows? Our next project might just change lives—or at
+                  least make mornings more caffeinated! ☕🚀&quot;
                 </p>
               </div>
             </div>
@@ -108,15 +109,15 @@ const BodyContent = () => {
 
       <div id="skills" className="h-full my-8 ">
         <div className="flex flex-col h-20 w-full items-center justify-center ">
-          <div className="text-center font-bold text-3xl">
+          <div className="text-center font-bold text-sm sm:text-xl md:text-3xl">
             <span
               className="
              text-transparent bg-clip-text 
             bg-gradient-to-r from-purple-800 brightness-200 to-cyan-500 uppercase"
             >
-              Hmmm....
+              Hmm...
               <FlipWords
-                words={["better", "cute", "beautiful", "modern"]}
+                words={["better", "cute", "marketable", "modern"]}
                 className="transition bg-clip-text bg-gradient-to-r from-purple-800 brightness-200 to-cyan-500 uppercase"
               />
               , Skills
@@ -124,7 +125,7 @@ const BodyContent = () => {
           </div>
           <div className="my-4 mx-2">
             <span className="px-2">
-              <h2 className="leading-6 text-center font-semibold text-white text-2xl">
+              <h2 className="leading-6 text-center font-semibold text-white text-sm sm:text-xl md:text-2xl">
                 Coding with new technologies is my lifestyle
               </h2>
             </span>
@@ -272,19 +273,19 @@ const BodyContent = () => {
 
           <div className="bg-bla-100/20  p-1 rounded-lg flex items-center justify-center">
             <div className="h-full md:w-[200px] lg:w-[300px]">
-              <Carousel className="bg-bla-100/50 h-full w-full">
+              <Carousel className="bg-bla-100/50 h-56 w-36 md:h-full md:w-full">
                 <CarouselContent className="flex aspect-square items-center justify-center p-6">
                   <CarouselItem className="ml-4 p-1 text-slate-400 flex  items-center justify-center "></CarouselItem>
                   <CarouselItem className="ml-4 p-1 flex text-xl font-bold  items-center justify-center">
                     <div className="flex flex-col gap-20 items-center justify-center">
-                      <div className="flex items-center justify-center text-slate-400">
+                      <div className="text-sm sm:text-xl md:text-2xl flex items-center justify-center text-slate-400">
                         {time}
                       </div>
-                      <div className="text-slate-300">{date}</div>
+                      <div className="text-xs sm:text-xl text-slate-300 text-center">{date}</div>
                     </div>
                   </CarouselItem>
-                  <CarouselItem className="ml-8 p-1 flex  items-center justify-center">
-                    <p className="text-2xl text-slate-400 text-center uppercase">
+                  <CarouselItem className="ml-4 mr-4 flex  items-center justify-center">
+                    <p className="text-xs sm:text-xl md:text-2xl text-slate-400 text-center uppercase">
                       Who owns time and data owns world
                     </p>
                   </CarouselItem>

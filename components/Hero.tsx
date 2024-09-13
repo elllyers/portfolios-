@@ -41,7 +41,7 @@ const Hero = () => {
               className="h-32 w-84 font-extrabold uppercase text-center text-[40px] md:text-3xl lg:text-8xl"
               words="I like coding, solving real world problems"
             />
-            <p className="text-center text-xl md:tracking-wider text-slate-300 leading-4 px-2">
+            <p className="text-center text-xl md:tracking-wider text-slate-300 px-2">
               The worst enemy to the creativity is self doubt
             </p>
             <div className="my-4">

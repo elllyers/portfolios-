@@ -20,6 +20,11 @@ const Footer = () => {
     autoplay: copied,
 
     rendererSettings: {
+      // preserveAspectRatio: "xMidYMid slice" is a SVG attribute that is used to position an image within a container.
+      // The "xMidYMid" part means that the image should be positioned at the center of the container.
+      // The "slice" part means that the image should be scaled down to fit inside the container, but not up.
+      // This is useful because it means that the image will not be stretched or distorted.
+      // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio
       preserveAspectRatio: "xMidYMid slice",
     },
   };

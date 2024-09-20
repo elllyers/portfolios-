@@ -24,6 +24,7 @@ const Footer = () => {
     },
   };
 
+
   const handleCopy = () => {
     const text = "elllyers@gmail.com";
     navigator.clipboard.writeText(text);

@@ -8,7 +8,7 @@ const buttonVariants = {
       ...Array(20).fill(1).map((_, i) => (i % 2 === 0 ? 1 : 1.1)),
     ],
     transition: {
-      duration: 300,
+      duration: 30,
     },
   },
 };

@@ -1,8 +1,8 @@
 # myportfolio
 
-this is a portfolio but if you want to know more about me just contact me
+This is a portfolio but if you want to know more about me, contacts are down below the description.
 
-# BY GATETE Elias
+# BY GATETE ELIAS
 
 ```bash
 connect with us via:

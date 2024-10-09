@@ -131,7 +131,7 @@ const BodyContent = () => {
             </span>
           </div>
         </div>
-        <div className="h-90 rounded-md  mt-16 mx-8 items-center justify-center flex ">
+        <div className="will-change-scroll h-90 rounded-md  mt-16 mx-8 items-center justify-center flex ">
           <motion.div
             initial="hidden"
             animate="visible"

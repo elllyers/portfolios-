@@ -62,8 +62,7 @@ export const CARDS = [
     id: 2,
     name: "✨",
     designation: "✨",
-    content:
-      "Transforming concepts into seamless user exprience",
+    content: "Transforming concepts into seamless user exprience",
   },
   {
     id: 3,

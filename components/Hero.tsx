@@ -16,13 +16,13 @@ const Hero = () => {
       <div>
         <Vortex
           backgroundColor="black"
-          className="h-full w-fullflex items-center justify-center  overflow-hidden"
+          className="h-full w-full items-center justify-center  overflow-hidden"
         >
           <motion.div
             variants={slideInFromLeft(0.5)}
             initial="hidden"
             animate="visible"
-            className="absolute mx-10 pl-4 invisible md:visible  bottom-10"
+            className="absolute ml-6 -mb-11 invisible md:visible flex justify-start bottom-14"
           >
             <AnimatedTooltip items={people} />
           </motion.div>
@@ -34,7 +34,7 @@ const Hero = () => {
                 transition={{ delay: 0.5, type: "spring", stiffness: 120 }}
                 className="text-center uppercase text-sm text-blue-100 tracking-widest max-w-90"
               >
-                i&#39;m a passionate web developer from rwanda
+                i&#39;m a passionate web developers from rwanda
               </motion.span>
             </div>
             <TextGenerateEffect

@@ -82,7 +82,7 @@ const BodyContent = () => {
                 <p className="text-sm sm:text-xl md:text-2xl text-white text-center hover:brightness-90">
                   &quot;Hey, fellow dreamers! Gather &apos;round. You know,
                   I&apos;ve been thinking—a project isn&apos;t just code;
-                  it&apos;s a whisper of possibility. So, let&apos;s dream
+                  it&apos;s a whisper of possibility. So,let&apos;s dream
                   bigger. Imagine an app that pairs lost socks, because even
                   laundry deserves love. Or a website that translates cat meows
                   into Shakespearean sonnets—because feline drama deserves
@@ -281,7 +281,9 @@ const BodyContent = () => {
                       <div className="text-sm sm:text-xl md:text-2xl flex items-center justify-center text-slate-400">
                         {time}
                       </div>
-                      <div className="text-xs sm:text-xl text-slate-300 text-center">{date}</div>
+                      <div className="text-xs sm:text-xl text-slate-300 text-center">
+                        {date}
+                      </div>
                     </div>
                   </CarouselItem>
                   <CarouselItem className="ml-4 mr-4 flex  items-center justify-center">

@@ -20,7 +20,7 @@ export const items = [
   },
   {
     Key: 3,
-    title: "Hey, let’s build cool stuff together!",
+    title: "Hey, let's build cool stuff together!",
     description:
       "collaboration makes my world spin smoother. sync me up, and let the magic happen!",
 
@@ -30,7 +30,7 @@ export const items = [
     Key: 4,
     title: "The Power of Communication",
     description:
-      "It’s how I share ideas. Whether we talk face-to-face, type messages, communication makes my world spin. So, I keep chatting,listening, and keep the magic alive.",
+      "It's how I share ideas. Whether we talk face-to-face, type messages, communication makes my world spin. So, I keep chatting,listening, and keep the magic alive.",
 
     img: "/earth.webm",
   },
@@ -56,7 +56,7 @@ export const CARDS = [
     name: "GATETE ELIAS",
     designation: "WEB DEVELOPER",
     content:
-      "Can`t wait for tomorrow, I feel like this is the right time. Can`t make notes for coding, only speaks from finished projects.",
+      "Can't wait for tomorrow, I feel like this is the right time. Can`t make notes for coding, only speaks from finished projects.",
   },
   {
     id: 2,

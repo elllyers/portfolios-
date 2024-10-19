@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 const buttonVariants = {
   hover: {
     scale: [
-      ...Array(20).fill(1).map((_, i) => (i % 2 === 0 ? 1 : 1.1)),
+      ...Array(20)
+        .fill(1)
+        .map((_, i) => (i % 2 === 0 ? 1 : 1.1)),
     ],
     transition: {
       duration: 30,
@@ -15,25 +17,14 @@ const buttonVariants = {
 const yr = Date;
 const Footer = () => {
   const [copied, setCopied] = useState(false);
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-
-    rendererSettings: {
-      // preserveAspectRatio: "xMidYMid slice" is a SVG attribute that is used to position an image within a container.
-      // The "xMidYMid" part means that the image should be positioned at the center of the container.
-      // The "slice" part means that the image should be scaled down to fit inside the container, but not up.
-      // This is useful because it means that the image will not be stretched or distorted.
-      // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
 
   const handleCopy = () => {
     const text = "elllyers@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
   };
   return (
     <div
@@ -111,7 +102,7 @@ const Footer = () => {
       <div className="p-1 mx-4">
         <div className="flex items-center justify-start">
           <span className="mr-0.5">
-            <img src="/imgfooter.png" width={20} height={20}/>
+            <img src="/imgfooter.png" width={20} height={20} />
           </span>
           <span className="font-thin text-sm text-slate-200">
             {" "}

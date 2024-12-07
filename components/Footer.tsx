@@ -102,7 +102,7 @@ const Footer = () => {
       <div className="p-1 mx-4">
         <div className="flex items-center justify-start">
           <span className="mr-0.5">
-            <img src="/imgfooter.png" width={20} height={20} />
+            <img src="/imgfooter.png" width={20} height={20} alt="edgelogo" />
           </span>
           <span className="font-thin text-sm text-slate-200">
             {" "}

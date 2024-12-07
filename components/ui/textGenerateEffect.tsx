@@ -21,11 +21,11 @@ export const TextGenerateEffect = ({
       "span",
       {
         opacity: 1,
-        filter: filter ? "blur(0px)" : "none",
+        filter: filter ? "blur(2px)" : "none",
       },
       {
-        duration: duration ? duration : 1,
-        delay: stagger(0.2),
+        duration: duration ? duration : .5,
+        delay: stagger(0.1),
       }
     );
   }, [scope.current]);

@@ -53,7 +53,7 @@ const Footer = () => {
               </svg>
             </span>
             <span className="text-slate-400 tracking-wide font-mono m-1">
-              +250739894115
+              +250729894168
             </span>
           </div>
         </div>{" "}
